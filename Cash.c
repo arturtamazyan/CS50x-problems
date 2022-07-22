@@ -3,9 +3,17 @@
 
 int main (void)
 {
-    int cents = get_int("Cents: ");
+    int cents;
+    do
+    {
+         cents = get_int("Cents: ");
+    }
+    while(cents < 1 || cents > 99) ;
 
-    cents = cents % 100;
+
+
+
+
 
     int coin_25 = cents / 25;
 
