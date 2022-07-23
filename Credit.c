@@ -80,7 +80,7 @@ int main(void)
     long sum = sum0 + sum1;
 
 
-        printf("Your card number is invalid\n");
+
 
     if (sum % 10 == 0)
     {
@@ -101,30 +101,30 @@ int main(void)
 
         if (a == 51 || a == 52 || a == 53 || a == 54 || a == 55)
         {
-            printf("MasterCard\n");
+            printf("MASTERCARD\n");
         }
 
 
         else if (b == 34 || b == 37)
         {
-            printf("American Express\n");
+            printf("AMEX\n");
         }
 
         else if (c == 4 || (card_number / (long)pow(10, 13) == 0 && d == 4))
         {
-            printf("Visa\n");
+            printf("VISA\n");
         }
 
         else
         {
-            printf("Its not Visa, not Mastercard and not American Express\n");
+            printf("INVALID\n");
         }
 
     }
 
     else
     {
-         printf("Your card number is invalid\n");
+         printf("INVALID\n");
     }
 
 
