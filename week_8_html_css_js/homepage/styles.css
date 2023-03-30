@@ -1,0 +1,79 @@
+.turle-images {
+    display: flex;
+    flex-wrap: nowrap; /* prevent line wrap */
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto; /* allow horizontal scrolling if images don't fit */
+  }
+
+  .turle-images a {
+    margin: 10px;
+  }
+
+  .turle-images a img {
+    height: 300px;
+    width: 100%;
+    display: block; /* remove inline-block */
+  }
+
+#tmnt-logo  {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#tmnt-logo img {
+    padding-top: 10px;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.intro-text {
+    padding:40px;
+    font-family: Lucida Console;
+    font-size:24px
+}
+
+.turle-images a p {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+th ,td{
+    background-color:#b3de28;
+    height:30px;
+    width:200px;
+    text-align: left;
+    font-size:20px;
+}
+
+
+table {
+    margin-left:30px;
+    margin-top:40px;
+    margin-bottom:30px;
+    width:100%;
+}
+
+.left p {
+    margin-left: 30px;
+    margin-top:80px;
+    font-size:26px;
+}
+
+.left h1 {
+    text-align:center;
+}
+
+.left img {
+    max-width: 30%;
+    max-height: 30%;
+    display:flex;
+}
+
+
+
+
